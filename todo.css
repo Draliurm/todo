@@ -1,0 +1,32 @@
+.titulo{
+    background-color: blue;
+    color: white;
+    font-size: 100px;
+    text-decoration: line-through rgb(255, 41, 141);
+    padding: 20px 50px 70px 2px;
+    border: 25px solid rgb(255, 230, 0);
+    border-radius: 100%;
+}
+.tituloLista{
+    color: rgb(13, 117, 39);
+
+}
+.pato{
+    text-decoration: underline rgb(255, 0, 0);
+    margin-bottom: 50px;
+}
+.tarjeta{
+    background-color: rgb(173, 214, 201);
+    color: rgb(0, 0, 0);
+    border: 15px solid rgb(0, 0, 0);
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+.boton{
+    border: 3px solid black;
+    background-color: rgb(223, 141, 141);
+    width: 200px;
+    border-radius: 10px;
+
+}

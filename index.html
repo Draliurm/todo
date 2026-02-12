@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> todo </title>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div align="center">
+        <p class="titulo"></p>
+        <br><br>Nombre: <input type="text" name="" id="nombre">
+        <br><br>Fecha: <input type="text" name="" id="fecha">
+        <br><br>Estado: <input list="tareas" id="tarea" name="tarea">
+        <datalist id="tareas">
+        <option value="Activo">
+        <option value="Inactivo">
+        </datalist>
+        <br><br><button onclick="guard()">Guardar</button>
+        <br><br><button onclick="save()" class="boton">Saved</button>
+        <br><br><div class="tarjeta">
+            <h1 class="pato">Tarjeta</h1>
+        <h1 class="tituloLista" id="lista"></h1>
+        </div>
+        
+    </div>
+</body>
+</html>
